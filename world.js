@@ -6,3 +6,5 @@ http.createServer(function (req, res) {
   res.write("The date and time are currently: " + dt.myDateTime());
   res.end('Hello World!');
 }).listen(8080);
+
+console.log("Ha ha ha, made changes yeah\n")
